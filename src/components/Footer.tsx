@@ -1,5 +1,5 @@
 import { logo } from "../assets"
-import { footerLinks, socialMedia } from "../constants"
+import { companyInfo, footerLinks, socialMedia } from "../constants"
 import styles from "../style"
 
 function Footer() {
@@ -26,7 +26,7 @@ function Footer() {
 			</div>
 
 			<div className="w-full flex md:justify-between items-center gap-6 md:flex-row flex-col pt-8 border-t-[1px] border-t-[#3f3e45]">
-				<p className="font-poppins font-normal text-[18px] leading-7 text-white text-center">Copyright &copy; 2024 FutureDay. All Rights Reserved.</p>
+				<p className="font-poppins font-normal text-[18px] leading-7 text-white text-center">Copyright &copy; 2024 {companyInfo.name}. All Rights Reserved.</p>
 
 				<ul className="flex flex-row gap-6">
 					{ socialMedia.map((item) => (

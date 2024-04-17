@@ -1,5 +1,6 @@
 import styles from "./style";
 import Components from "./components";
+import 'animate.css';
 
 function App() {
 	return (

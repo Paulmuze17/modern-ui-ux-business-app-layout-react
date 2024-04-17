@@ -18,7 +18,6 @@
 	scroll-behavior: smooth;
 }
 
-
 .text-gradient {
 	background: radial-gradient(
 		64.18% 64.18% at 71.16% 35.69%,
@@ -46,7 +45,22 @@
 		#33bbcf 90.29%
 	);
 }
+.bg-purple-gradient {
+	background: linear-gradient(
+		0deg,
+		rgba(92,225,230,1) 0%,
+		rgba(190,216,245,1) 30%,
+		rgba(125,190,235,1) 60%);
+}
 
+.bg-custom-gradient {
+	background: linear-gradient(
+		144.39deg,
+		#33bbcf -278.56%,
+		#7de7eb -78.47%,
+		#bef3f5 91.61%
+	);
+}
 .bg-black-gradient {
 	background: linear-gradient(
 		144.39deg,
