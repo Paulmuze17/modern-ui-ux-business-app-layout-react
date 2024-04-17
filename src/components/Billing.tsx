@@ -8,7 +8,7 @@ function Billing() {
 			<div className={layout.sectionImgReverse}>
 				<img className="w-full h-full relative z-[5]" src={bill} alt="billing" />
 
-				<div className="absolute z-[3] left-1/2 top-0 w-1/2 h-1/2 rounded-full white__gradient"></div>
+				<div className="absolute z-[3] -left-1/2 top-0 w-1/2 h-1/2 rounded-full white__gradient"></div>
 				<div className="absolute z-0 left-1/2 bottom-0 w-1/2 h-1/2 rounded-full pink__gradient"></div>
 			</div>
 			<div className={layout.sectionInfo}>
