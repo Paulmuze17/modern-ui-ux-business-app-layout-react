@@ -20,7 +20,6 @@ function Business() {
 		</section>
 	)
 }
-
 export default Business
 
 interface IFeatureCardProps {
@@ -33,6 +32,7 @@ interface IFeatureCardProps {
 	}
 }
 
+// -------------------------
 // props sending a different way
 {/* <FeatureCard key={feature.id} {...feature} itemIndex={index} /> */}
 
