@@ -25,7 +25,7 @@ function App() {
 						<Components.CardDeal />
 						<Components.Testimonials />
 						<Components.Clients />
-						<Components.CTA />
+						<Components.CallToAction />
 						<Components.Footer />
 					</div>
 				</div>
