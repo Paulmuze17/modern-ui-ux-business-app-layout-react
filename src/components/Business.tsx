@@ -5,14 +5,14 @@ import Button from './Button'
 
 function Business() {
 	return (
-		<section id="features" className={layout.section}>
-			<div className={layout.sectionInfo}>
+		<section id="features" className={layout.section} >
+			<div className={layout.sectionInfo} data-aos="fade-right" data-aos-duration="1500">
 				<h2 className={`${styles.heading2} mb-5`}>You do the business, <br className="sm:block hidden" />we’ll handle the money.</h2>
 				<p className={`${styles.paragraph} max-w-[470px] mb-10`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vitae ea corrupti earum? Nulla velit reprehenderit ipsum corrupti consequuntur facilis? Nesciunt, voluptatibus expedita! Totam, quas saepe.</p>
 
 				<Button text={"Get started"} styles={""} />
 			</div>
-			<div className={`${layout.sectionImg} flex-col`}>
+			<div className={`${layout.sectionImg} flex-col`} data-aos="fade-left" data-aos-duration="1500">
 				{ features.map((feature, index) => (
 					<FeatureCard key={feature.id} itemIndex={index} featureData={feature} />
 				)) }

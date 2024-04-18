@@ -1,8 +1,15 @@
 import styles from "./style";
 import Components from "./components";
 import 'animate.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function App() {
+	useEffect(() => {
+		AOS.init();
+	}, []);
+
 	return (
 		<div>
 			<div className="bg-primary w-full overflow-hidden">
